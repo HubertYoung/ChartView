@@ -1,0 +1,160 @@
+{
+  "delayTime": "30",
+  "MSG": "交易成功!",
+  "respData": {
+    "AssesInfo": {
+      "maxAsset": "349.6",
+      "maxDate": "20180704",
+      "minDate": "20180730",
+      "minAsset": "175.49"
+    },
+    "DateList": {
+      "startDate": "07-01",
+      "endDate": "07-31",
+      "midDate": "07-15",
+      "isChange": true
+    },
+    "BillMonth": "201807",
+    "ColorText": {
+      "areaColor": "#fe8d35",
+      "textColor": "#fe8d35",
+      "lineColor": "#fe8d35",
+      "minPellucid": "0.0125",
+      "shallColor": "#fff6ee",
+      "maxPellucid": "0.25",
+      "deepColor": "#ffe3ce"
+    },
+    "List": [
+      {
+        "date": "20180701",
+        "totalAsset": "349.6"
+      },
+      {
+        "date": "20180702",
+        "totalAsset": "349.6"
+      },
+      {
+        "date": "20180703",
+        "totalAsset": "349.6"
+      },
+      {
+        "date": "20180704",
+        "totalAsset": "349.6"
+      },
+      {
+        "date": "20180705",
+        "totalAsset": "347.8"
+      },
+      {
+        "date": "20180706",
+        "totalAsset": "347.8"
+      },
+      {
+        "date": "20180707",
+        "totalAsset": "347.8"
+      },
+      {
+        "date": "20180708",
+        "totalAsset": "347.8"
+      },
+      {
+        "date": "20180709",
+        "totalAsset": "347.8"
+      },
+      {
+        "date": "20180710",
+        "totalAsset": "311.8"
+      },
+      {
+        "date": "20180711",
+        "totalAsset": "311.8"
+      },
+      {
+        "date": "20180712",
+        "totalAsset": "311.8"
+      },
+      {
+        "date": "20180713",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180714",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180715",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180716",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180717",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180718",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180719",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180720",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180721",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180722",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180723",
+        "totalAsset": "311.79"
+      },
+      {
+        "date": "20180724",
+        "totalAsset": "275.49"
+      },
+      {
+        "date": "20180725",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180726",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180727",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180728",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180729",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180730",
+        "totalAsset": "175.49"
+      },
+      {
+        "date": "20180731",
+        "totalAsset": "195.49"
+      }
+    ]
+  },
+  "isEncryptForRespData": true,
+  "ResponseCode": "AAAAAAA",
+  "STATUS": "1",
+  "callbackKey": "tempTransId",
+  "ResponseMsg": "交易成功!",
+  "isAvailable": "1"
+}
