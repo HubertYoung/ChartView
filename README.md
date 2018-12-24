@@ -17,4 +17,4 @@
 ## Screenshots
 <a href="app/pics/device-2018-12-24-163216.png"><img src="app/pics/device-2018-12-24-163216.png" width="30%"/></a>
 <a href="app/pics/device-2018-12-24-163615.png"><img src="app/pics/device-2018-12-24-163615.png" width="30%"/></a>
-<a <img src="app/pics/device-2018-12-24-163903.png" width="30%"/></a>
+ <img src="app/pics/device-2018-12-24-163903.png" width="30%"/>
