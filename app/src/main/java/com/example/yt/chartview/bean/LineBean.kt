@@ -52,7 +52,7 @@ data class DateList(
     val startDate: String,
     val endDate: String,
     val midDate: String,
-    val isChange:Boolean
+    val isShowAllDate:Boolean
 )
 
 data class X(

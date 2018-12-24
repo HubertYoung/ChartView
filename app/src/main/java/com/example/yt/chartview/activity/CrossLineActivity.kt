@@ -18,6 +18,7 @@ import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.math.BigDecimal
+import java.nio.file.Files.find
 import java.util.*
 
 class CrossLineActivity : AppCompatActivity() {
@@ -188,13 +189,7 @@ class CrossLineActivity : AppCompatActivity() {
 		val firstMonthYear = getFirstMonthYear(list)
 		var lastPos = Integer.parseInt(lastMonth)
 		LogUtils.eTag(TAG, "pos is $lastPos")
-		var subPart = 0
-//		if (lastPos >= 1 && firstPos!=1 && lastPos !=firstPos && list.size > lastPos)  {
-//			subPart = Integer.parseInt(getSpaceMonth(list, lastPos)) - firstPos + lastPos
-//			LogUtils.eTag(TAG,"getSpaceMonth(list, lastPos)="+getSpaceMonth(list, lastPos))
-//		} else {
-//			subPart = lastPos - firstPos
-//		}
+
 		val part = 11
 		val width = mCrossLine.width
 		val offset = Utils.dp2px(this, 60)
@@ -205,7 +200,6 @@ class CrossLineActivity : AppCompatActivity() {
 		var j = 0
 		var subYear = ""
 		for (i in 0 .. part) {
-//			subPart++
 			val startX = scaleX * i
 			val stopY = mCrossLine.getLineChartHeight() - Utils.dp2px(this, CrossLineChartView.marginBottom)
 			var month = ""

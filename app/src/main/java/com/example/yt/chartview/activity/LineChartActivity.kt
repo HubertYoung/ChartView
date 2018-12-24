@@ -69,7 +69,8 @@ class LineChartActivity : AppCompatActivity() {
     private fun getBottomTextBean(dateList: DateList, listBean: List<X>): Coordinate.BottomTextBean {
         val bottomTextBean = Coordinate.BottomTextBean(dateList.startDate, dateList
                 .endDate, dateList.midDate)
-        bottomTextBean.isChange = dateList.isChange
+        bottomTextBean.isChange = dateList.isShowAllDate
+        //当月全部日期
         val dates = arrayListOf<String>()
         for (element in listBean) {
             val date = element.date.substring(6)

@@ -115,13 +115,14 @@ public class Coordinate {
     }
 
     /**
-     * x轴可变文本显示
+     * x轴显示全部日期
      */
     private void addBottomText() {
         Paint paint = new Paint();
         paint.setAntiAlias(true);
         //设置线条宽度
         paint.setStyle(Paint.Style.FILL);
+        //画笔颜色可以改成动态的
         paint.setColor(Color.parseColor("#666666"));
         paint.setTextSize(Utils.dp2px(mContext, 8));
         int offsets = Utils.dp2px(mContext, 10);
@@ -465,7 +466,7 @@ public class Coordinate {
             isChange = change;
         }
 
-        //x轴是否固定文本显示
+        //x轴是否固定文本显示，显示全部日期，还是只显示三个
         public boolean isChange;
 
         public BottomTextBean(String startDate, String endDate, String midDate) {
